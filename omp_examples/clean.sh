@@ -1,3 +1,3 @@
-if ls *.o ; then
+if ls *.o &> /dev/null ; then
 	rm *.o
 fi
